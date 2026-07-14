@@ -43,7 +43,7 @@ export function Hero() {
   const prefersReduced = useReducedMotion()
 
   return (
-    <section id="top" className="relative overflow-hidden pt-36 pb-20 md:pt-44 md:pb-28">
+    <section id="top" className="relative overflow-hidden pt-14 pb-8 md:pt-16 md:pb-10">
       <AnimatedGrid />
       <motion.div
         className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[480px] w-[900px] -translate-x-1/2 rounded-full opacity-60 blur-3xl"

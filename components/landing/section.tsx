@@ -23,7 +23,7 @@ export function SectionShell({
   className?: string
 }) {
   return (
-    <section id={id} className={cn('scroll-mt-24 py-20 md:py-28 lg:py-32', className)}>
+    <section id={id} className={cn('scroll-mt-20 py-6 md:py-8 lg:py-10', className)}>
       {children}
     </section>
   )
@@ -47,14 +47,14 @@ export function SectionHeader({
   return (
     <div
       className={cn(
-        'flex flex-col gap-4',
+        'flex flex-col gap-2',
         align === 'center' ? 'mx-auto max-w-2xl items-center text-center' : 'max-w-2xl',
         className,
       )}
     >
       <div
-        className={cn(
-          'flex items-center gap-3',
+          className={cn(
+          'flex items-center gap-2',
           align === 'center' ? 'justify-center' : 'justify-start',
         )}
       >

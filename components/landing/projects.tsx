@@ -52,7 +52,7 @@ export function Projects() {
           />
         </FadeUp>
 
-        <div className="mt-12 grid gap-4 md:grid-cols-2">
+        <div className="mt-4 grid gap-4 md:grid-cols-2">
           {projects.map((p, index) => (
             <motion.a
               key={p.name}

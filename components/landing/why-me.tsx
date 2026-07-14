@@ -72,12 +72,12 @@ export function WhyMe() {
                   style={{ background: 'var(--brand-muted)' }}
                 />
                 <Quote className="size-8 text-brand" />
-                <blockquote className="mt-6 text-pretty text-lg leading-relaxed text-foreground">
+                <blockquote className="mt-4 text-pretty text-lg leading-relaxed text-foreground">
                   &ldquo;Passionate about creating high-quality digital solutions, improving software
                   performance, and continuously expanding technical expertise in emerging
                   technologies.&rdquo;
                 </blockquote>
-                <figcaption className="mt-6 flex items-center gap-3 border-t border-border pt-6">
+                <figcaption className="mt-4 flex items-center gap-3 border-t border-border pt-6">
                   <div className="flex size-11 items-center justify-center rounded-full bg-gradient-to-br from-brand to-chart-5 font-mono text-sm font-semibold text-brand-foreground">
                     VS
                   </div>

@@ -46,7 +46,7 @@ export function WorkflowSection() {
         </FadeUp>
 
         <Stagger
-          className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-5"
+          className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-5"
           staggerDelay={0.08}
         >
           {steps.map((s, i) => (

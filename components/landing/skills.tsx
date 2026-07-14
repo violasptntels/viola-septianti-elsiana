@@ -88,7 +88,7 @@ export function Skills() {
         />
 
         <Stagger
-          className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"
+          className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"
           staggerDelay={0.1}
         >
           {groups.map((g, index) => (

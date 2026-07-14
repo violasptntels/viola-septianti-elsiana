@@ -65,7 +65,7 @@ export function Experience() {
           />
         </FadeUp>
 
-        <ol className="relative mt-12">
+        <ol className="relative mt-4">
           <motion.div
             className="absolute left-[7px] top-2 bottom-2 w-px bg-border md:left-[calc(9rem+7px)]"
             aria-hidden
